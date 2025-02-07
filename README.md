@@ -5,4 +5,4 @@ Otherwise, you can see my github portfolio here: [Data Analyst Journey](https://
 
 ## Credits
 
-Copyright John Sample 2024
+Copyright John Sample 2024 for the webpage template!
