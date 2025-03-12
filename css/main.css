@@ -279,12 +279,13 @@ h5 {
 }
 
 .about-row {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  display: flex; /* Change from grid to flex for better control */
+  flex-direction: column; /* Stack elements */
   justify-content: center;
-  gap: 90px;
-  margin-bottom: 80px;
+  align-items: center;
+  gap: 40px; /* Reduce space */
   color: var(--supportive-text-color);
+  text-align: center; /* Center text alignment */
 }
 
 .about-descr {
@@ -292,8 +293,9 @@ h5 {
   line-height: 1.7;
   font-weight: 400;
   margin-bottom: 10px;
-  max-width: 100%; /* Added */
-  text-align: justify; /* Added */
+  max-width: 80%; /* Take more space */
+  text-align: justify;
+  margin: 0 auto; /* Center align */
 }
 
 .skills-header {
@@ -313,9 +315,17 @@ h5 {
 
 .skills-row {
   display: flex;
-  gap: 15px; /* Space between skills */
+  flex-direction: column; /* Stack rows */
+  gap: 20px; /* Reduce spacing */
+  align-items: center;
+}
+
+.skills-group {
+  display: flex;
   flex-wrap: wrap;
+  gap: 15px; /* Space between items */
   justify-content: center;
+  width: 100%;
 }
 
 .skills-column {
