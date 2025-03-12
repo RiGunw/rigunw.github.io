@@ -302,15 +302,15 @@ h5 {
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
+  text-align: center;
 }
 
 .skill {
-  position: relative;
-  display: flex; /* Changed from block to flex */
-  align-items: center; /* Align items in the center */
-  padding: 5px 10px; /* Added padding for spacing */
-  width: 100%;
-  margin-bottom: 30px;
+  display: inline-flex; /* Make each skill take only its necessary space */
+  align-items: center; /* Align icons and text */
+  gap: 8px; /* Space between icon and text */
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .skills-row {
@@ -322,9 +322,9 @@ h5 {
 
 .skills-group {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px; /* Space between items */
-  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  gap: 30px; /* Add space between items */
+  justify-content: center; /* Center align everything */
   width: 100%;
 }
 
@@ -338,7 +338,6 @@ h5 {
 .skill-icon {
   width: 24px;
   height: 24px;
-  margin-right: 8px;
 }
 
 .skill-title,
