@@ -303,6 +303,7 @@ h5 {
   font-weight: 600;
   letter-spacing: 2px;
   margin-top: 60px;
+  margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -311,7 +312,7 @@ h5 {
   display: inline-flex; /* Make each skill take only its necessary space */
   align-items: center; /* Align icons and text */
   gap: 8px; /* Space between icon and text */
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
 }
 
@@ -338,8 +339,8 @@ h5 {
 }
 
 .skill-icon {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 
 .skill-title,
