@@ -502,7 +502,28 @@ h5 {
 }
 
 .contact-button {
-  margin-top: 20px;
+  display: flex;
+  gap: 15px; /* Adjust spacing between buttons */
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 180px; /* Ensures uniform button size */
+  height: 50px;
+}
+
+.btn-icon {
+  width: 20px; /* Adjust icon size */
+  height: 20px;
+  margin-right: 8px; /* Space between icon and text */
 }
 
 /* Footer */
