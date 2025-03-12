@@ -380,6 +380,7 @@ h5 {
 .projects-row {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
 }
 
